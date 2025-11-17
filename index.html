@@ -154,6 +154,10 @@
         <div class="center-content">
             <img
                   class="company-icon"
+                  src="Resources/Images/Companies/C3.png"
+            />
+            <img
+                  class="company-icon"
                   src="Resources/Images/Companies/ScoreTravel.png"
             />
             <img
@@ -193,9 +197,10 @@
                 impact on people's lives.</p>
             <p><b>My Journey and Highlights:</b></p>
                 <ul class="skills-list">
-                  <li>Pursuing a Master of Science in Computer Science and Engineering at The State University of New York (SUNY) at Buffalo with a GPA: 4.0/4.0</li>
-                  <li>Working at ScoreTravel Inc., building a travel product and have successfully raised $0.75M in pre-seed funding</li>
-                  <li>Previously, spent two years at Morgan Stanley Capital International (MSCI) as a Software Developer in Equity Index Calculation Team</li>
+                  <li>Developing asset performance applications at C3.ai to help clients improve yield and production efficiency.</li>
+                  <li>Completd my a Master of Science in Computer Science and Engineering at The State University of New York (SUNY) at Buffalo with a GPA: 4.0/4.0</li>
+                  <li>Worked at ScoreTravel Inc., building a travel product and have successfully raised $0.75M in pre-seed funding</li>
+                  <li>Spent two years at Morgan Stanley Capital International (MSCI) as a Software Developer in Equity Index Calculation Team</li>
                   <li>Certified as a Microsoft Azure Developer Associate (AZ-204) and Microsoft Azure Fundamentals (AZ-900).</li>
                   <!-- <li>SQL - Oracle Database,MS SQL Server</li>
                             <li>Cloud - Azure,Docker</li> -->
@@ -207,9 +212,9 @@
 
             <ul class="skills-list">
               <li>Languages - Java,Python,C,C#,TypeScript,HTML,CSS</li>
-              <li>Technologies - Spring,Maven,Angular,Node.js,ASP.NET</li>
+              <li>Technologies - Spring,Maven,Angular,Node.js,React</li>
               <li>Database - SQL,OracleDB,MongoDB,MySQL</li>
-              <li>Other Tech - AzureCloud,GIT,Shell-Scripting,Splunk,Figma</li>
+              <li>Other Tech - GenAi,AzureCloud,GIT,Splunk,Figma</li>
               <!-- <li>SQL - Oracle Database,MS SQL Server</li>
                         <li>Cloud - Azure,Docker</li> -->
             </ul>
@@ -236,7 +241,10 @@
         <h2 class="numbered-heading">Experience</h2>
         <div class="experience-inner">
           <div class="tab">
-            <button class="tablinks active" onclick="openExperience(event, 'ScoreTravel')">
+            <button class="tablinks active" onclick="openExperience(event, 'C3')">
+              C3.ai
+            </button>
+            <button class="tablinks" onclick="openExperience(event, 'ScoreTravel')">
               ScoreTravel
             </button>
             <button class="tablinks" onclick="openExperience(event, 'MSCI')">
@@ -252,22 +260,43 @@
               BITGENIE RESEARCH
             </button>
           </div>
-          <div id="ScoreTravel" class="tabcontent">
+          <div id="C3" class="tabcontent">
+            <h3>
+              Software Engineer - L4
+              <span class="green"
+                >@ C3.ai</span
+              >
+            </h3>
+            <h6>Base Applications Team | Feb 2025 - Present</h6>
+            <ul class="experience-list">
+              <li>
+                Designed and built a distributed Python-ML-gurobi pipeline to optimize operations for facilities with thousands of sensors
+              </li>
+              <li>
+                Engineered full-stack process-optimization solution using Java, TypeScript, Postgres, and React, integrating predictive-maintenance 
+                ML pipelines, directly driving 2% yield gains across facilities.              
+              </li>
+              <li>
+                Architected a GenAI capability, designing agents, custom tooling, and MCP server, 
+                accelerated customer insight delivery by 60%.
+              </li>
+            </ul>
+          </div>
+          <div id="ScoreTravel" class="tabcontent inactive">
             <h3>
               Software Engineer Intern
               <span class="green"
                 >@ ScoreTravel Inc.</span
               >
             </h3>
-            <h6>Back-End Team | June 2024 - Present</h6>
+            <h6>Back-End Team | June 2024 - Jan 2025</h6>
             <ul class="experience-list">
               <li>
-                Engineered a medallion data pipeline with Node.js, DuckDB and Zod to fetch, process, and validate 10,000+ POI records daily from 
-                vendors and stored the data as Parquet files in an AWS S3 bucket
+                Engineered a medallion data pipeline with Node.js, DuckDB and Zod to fetch, process, and validate 1M+ POI records daily from 
+                vendors and stored the data as Parquet files in an Storage bucket
               </li>
               <li>
-                Launched a comprehensive web crawler and scraper application using Node.js and Playwright, which aggregated data from 
-                1,000+ webpages into MongoDB, improving data accessibility for analysis by 30%. 
+                Built an orchestration tool for managing RPC calls and automating workflows using Inngest, Node.js and Kafka.              
               </li>
             </ul>
           </div>
@@ -399,7 +428,7 @@
                 (SUNY)</span
               >
             </h6>
-            <h6>August 2023 - Present | CGPA - 4/4</h6>
+            <h6>August 2023 - Jan 2025 | CGPA - 4/4</h6>
             <h5>Relevant Coursework:</h5>
             <p>
               Algorithms, Database Systems, Computer Security and Architecture,
